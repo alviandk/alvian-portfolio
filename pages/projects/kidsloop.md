@@ -6,7 +6,7 @@ tag: software engineer
 author: You
 ---
 
-# Django automation orchestrator
+# Kidsloop
 
 ## Summary
 - Webhook receiver from cms backend
