@@ -41,18 +41,23 @@ With the Slack app set up, it's time to create the Serverless GCP Cloud Function
 
 ## Step 3: Summary Flow of Slack App Integration
 
-Now, let's walk through the flow of how the Slack app and Serverless GCP Cloud Functions interact to automate environment management:
+Now, let's walk through the enchanting flow of how the Slack app and Serverless GCP Cloud Functions unite to automate environment management, starting at 8 am and gracefully ending at 5 pm.
 
-1.  Slack Command: A developer uses a custom slash command (e.g., /start-environment or /stop-environment) in the Slack channel.
+1.  Slack Command Scheduling: Google Cloud Scheduler triggers custom slash commands at 8 am to start the environments and at 5 pm to stop them.
     
-2.  Outgoing Webhook: Slack sends an outgoing webhook request with the slash command details to your Cloud Function's endpoint.
+2.  Outgoing Webhook: Slack sends the scheduled slash commands to our Cloud Function's endpoint.
     
-3.  Cloud Function Execution: The Serverless GCP Cloud Function receives the outgoing webhook request, authenticates the request with Slack credentials, and processes the command.
+3.  Cloud Function Execution: The Serverless GCP Cloud Function receives the webhook request and authenticates it.
     
-4.  Start or Stop Actions: Based on the command received, the Cloud Function initiates the corresponding action. For instance, if the command is to start the environment, the function starts the necessary GCP resources, and vice versa.
+4.  Initiating the Action: Based on the command, the Cloud Function activates or deactivates the relevant GCP resources.
     
-5.  Slack Response: After the action is executed, the Cloud Function sends a response back to Slack, confirming the success or failure of the request.
+5.  Productive Day: Throughout the day, developers work efficiently in the optimized environments.
     
+6.  Sunset Approach: At 5 pm, Google Cloud Scheduler triggers the stop command.
+    
+7.  Closing Down: The Cloud Function gracefully shuts down the environments, preventing unnecessary expenses.
+    
+8.  Slack Response: Slack receives the response, confirming the success or failure of the commands.
 
 ## Impact: Cost Optimization Up to 66%
 
