@@ -15,7 +15,7 @@ In today's fast-paced tech environment, cost optimization is a critical aspect o
 
 The testing and development environments are essential for developers to experiment, test new features, and validate their code changes. However, these environments are often underutilized outside regular working hours, leading to unnecessary expenses. To address this, we can automate the process of starting and stopping these environments when needed, significantly reducing costs.
 
-## Step 1: Setting Up Slack App
+## Setting Up Slack App
 
 To begin, you'll need to create a Slack app that allows users to interact with your Cloud Functions through Slack commands. Follow these steps to set up the Slack app:
 
@@ -24,7 +24,7 @@ To begin, you'll need to create a Slack app that allows users to interact with y
 3.  Configure Incoming and Outgoing Webhooks: Set up an incoming webhook to receive messages and an outgoing webhook to send messages from Slack to your Cloud Function endpoint.
 4.  Implement Slash Commands: Create custom slash commands that developers can use to start and stop their environments. Define the endpoints for these commands to communicate with your Cloud Functions.
 
-## Step 2: Implementing Serverless GCP Cloud Function
+## Implementing Serverless GCP Cloud Function
 
 With the Slack app set up, it's time to create the Serverless GCP Cloud Functions. These functions will handle incoming webhook requests and execute the necessary actions to start or stop the development environments. Here's how you can set up the Cloud Functions:
 
