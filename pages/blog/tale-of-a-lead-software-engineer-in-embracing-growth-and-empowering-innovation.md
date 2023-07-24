@@ -30,7 +30,7 @@ I encouraged engineers who were self-motivated and driven to take the lead on pr
 
 ## Chapter 5: Providing Support
 
-For others who sought more guidance, I made a conscious effort to be present, approachable, and available. Through regular one-on-one conversations, I actively listened to their concerns, challenges, and aspirations. I offered mentorship, resources, and constructive feedback to help them progress.
+For others who sought more guidance, I made a conscious effort to be present, approachable, and available. Through regular chat message conversations, I actively listened to their concerns, challenges, and aspirations. I offered mentorship, resources, and constructive feedback to help them progress.
 
 ## Chapter 6: The Transformation
 
@@ -40,7 +40,7 @@ With time, I witnessed a positive transformation within the team. Engineers embr
 
 As the team matured, I found myself stepping back, allowing them to take more significant decisions and lead in their respective areas. I played a role as a facilitator, supporting and empowering them to excel. This shift not only strengthened the team's capabilities but also allowed me to focus on broader strategic decisions and initiatives.
 
-Conclusion: Embracing the Journey
+## Conclusion: Embracing the Journey
 
 In this ongoing narrative of growth and empowerment, I have learned the true essence of leadership - to understand and adapt, to recognize that each team member is on their unique journey of growth. It is not about imposing my ideas, but nurturing a culture of innovation and empowerment.
 
