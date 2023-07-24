@@ -3,7 +3,7 @@ title: Kidsloop
 date: 2022/8/4
 description: My portfolio projects at Kidsloop.
 tag: software engineer
-author: You
+author: python, django, xendit, qontak
 ---
 
 # Kidsloop

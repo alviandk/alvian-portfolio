@@ -8,4 +8,4 @@ date: 2019-03-18
 
 ## All projects in the past
 
-something to tell about real world project example
+Comprehensive collection of my completed projects

@@ -2,8 +2,8 @@
 title: Stanbase
 date: 2022/8/4
 description: My freelance gig, working on backend for frontend architecture.
-tag: software engineer
-author: You
+tag: python, django, apple in app purchase, GCP, sendgrid, freshdesk
+author: Alvian
 ---
 
 # [Stanbase](https://stanbase.com/)
@@ -25,4 +25,4 @@ author: You
 - Flask
 - Pytest
 - Mock test
-- Postgresql
+- PostgreSQL

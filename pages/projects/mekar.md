@@ -3,7 +3,7 @@ title: Mekar
 date: 2022/8/3
 description: My portfolio projects at Mekar Investama Sampoerna.
 tag: software engineer
-author: You
+author: Alvian
 ---
 
 # Mekar Investama Sampoerna
