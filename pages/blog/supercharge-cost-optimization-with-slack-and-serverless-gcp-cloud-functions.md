@@ -3,7 +3,7 @@ title: Supercharge Cost Optimization with Slack & Serverless GCP Cloud Functions
 
 date: 2023/7/22
 description: In this blog post, we'll explore how you can leverage the power of Slack and Serverless GCP Cloud Functions to automate the process of starting and stopping your development environments, leading to significant cost savings.
-tag: Cloud Function, GCP, Slack, 
+tag: Cloud Function, GCP, Slack, Automation
 author: Alvian
 ---
 
