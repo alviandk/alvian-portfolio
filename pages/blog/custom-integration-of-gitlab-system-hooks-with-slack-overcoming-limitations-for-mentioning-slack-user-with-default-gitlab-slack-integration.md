@@ -1,5 +1,5 @@
 ---
-title: Custom Integration of GitLab System Hooks with Slack - Overcoming Limitations for Mentioning Slack User with Default GitLab-Slack Integration
+title: Custom Integration of GitLab System Hooks with Slack
 date: 2023/8/8
 description: Overcome default Slack integration limitations, enable user mentions, and streamline communication for increased productivity.
 tag: Slack, Gitlab, Automation, GCP 
