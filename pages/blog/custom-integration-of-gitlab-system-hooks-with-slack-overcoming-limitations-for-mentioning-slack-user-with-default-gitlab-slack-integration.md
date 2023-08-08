@@ -46,12 +46,12 @@ To address the limitations of the default Slack integration, we developed a cust
 
 #### Step 3: Map User IDs on GitLab to Slack Member IDs
 
-- Maintain a mapping between GitLab user IDs and their corresponding Slack member IDs.
+- Maintain a mapping between GitLab user IDs and their corresponding Slack member IDs. ![Mapping user id](https://d1kkcsa3gp41aj.cloudfront.net/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/user-id-mapping.png)
 - Ensure the mapping remains updated to facilitate accurate user mentions.
 
 #### Step 4: Process the Payload and Trigger Slack Mentions
 
-- Within the custom Cloud Function, process the transformed data. ![Mapping user id](https://d1kkcsa3gp41aj.cloudfront.net/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/user-id-mapping.png)
+- Within the custom Cloud Function, process the transformed data.
 - For merge request events, use the user mappings to directly mention the relevant GitLab users involved in the request and the requester upon merging. ![Slack mention about merge request](https://d1kkcsa3gp41aj.cloudfront.net/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/slack-mr-mention.png)
   
 ### Conclusion
