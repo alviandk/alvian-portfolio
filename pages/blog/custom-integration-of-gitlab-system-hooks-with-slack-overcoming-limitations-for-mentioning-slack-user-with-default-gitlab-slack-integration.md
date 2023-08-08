@@ -17,7 +17,7 @@ In software development, efficient collaboration and streamlined communication a
 
 ### Shortcoming of Default Slack Integration
 
-The default Slack integration with GitLab lacks the ability to mention the specific GitLab users responsible for creating or reviewing pull requests (PRs). This limitation hinders effective communication within teams and makes it challenging to assign responsibilities or resolve issues promptly.
+The default Slack integration with GitLab lacks the ability to mention the specific GitLab users responsible for creating or reviewing merge requests (MRs). This limitation hinders effective communication within teams and makes it challenging to assign responsibilities or resolve issues promptly.
 
   
 
