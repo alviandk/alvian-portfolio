@@ -1,5 +1,5 @@
 ---
-title: Unveiling the Power of Google Cloud Scheduler for Daily Productivity
+title: Unveiling the Power of Google Cloud Scheduler for Daily Business Tasks
 
 date: 2023/7/29
 description: Discover the game-changing power of Google Cloud Scheduler for optimal task automation and enhanced productivity.
