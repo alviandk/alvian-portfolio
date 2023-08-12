@@ -84,7 +84,7 @@ What stood out was not just the delivery of a correct solution, but the drive to
 
 **Code Repository on GitHub**
 
-For those who are curious about the complete code, I've uploaded it to a GitHub repository. There you can find the full implementation, along with other related components of the project. This repository provides a practical hands-on look at the discussed solution and will be a valuable resource for anyone looking to implement a similar feature in Django. [https://github.com/alviandk/Lets-Vote](https://chat.openai.com/#) 
+For those who are curious about the complete code, I've uploaded it to a GitHub repository. There you can find the full implementation, along with other related components of the project. This repository provides a practical hands-on look at the discussed solution and will be a valuable resource for anyone looking to implement a similar feature in Django. [https://github.com/alviandk/Lets-Vote](https://github.com/alviandk/Lets-Vote) 
 
 **Conclusion: Pair Programming with AI**
 
