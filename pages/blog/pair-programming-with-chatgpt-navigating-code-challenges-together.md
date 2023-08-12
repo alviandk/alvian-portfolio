@@ -1,5 +1,5 @@
 ---
-title: Pair Programming with ChatGPT – Navigating Code Challenges Together
+title: Pair Programming with ChatGPT
 date: 2023/8/12
 description: Exploring the future of coding collaboration, I paired up with OpenAI's ChatGPT to tackle a Django challenge, discovering a dynamic and efficient way to enhance the development process.
 tag: ChatGPT, Python, Backend Developer, Django 
