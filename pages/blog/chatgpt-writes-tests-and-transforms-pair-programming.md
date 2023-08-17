@@ -25,6 +25,8 @@ With just a simple prompt, essentially asking ChatGPT to "write tests for these 
 
 ChatGPT's tests for the models went beyond my expectations. It didn’t just stop at testing the standard fields and relationships. It ventured into the custom methods within the models, reflecting a profound understanding of the Django ORM. ![Result Test for Models](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/model-result.png)
 
+[Test models source](https://github.com/alviandk/Lets-Vote/blob/main/votes/test_models.py)
+
 
 ### Testing Django Views
 
@@ -34,6 +36,9 @@ The views in Django are pivotal as they bridge the user with the backend. ChatGP
 
 #### The Result
 ![Result Test for Views](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/views-result.png)
+
+[Test views source](https://github.com/alviandk/Lets-Vote/blob/main/votes/test_views.py)
+
 ## Beyond Testing - ChatGPT’s Expanding Capabilities
 
 While my recent exploits with ChatGPT centered around automated testing, it's evident that its abilities are vast. From aiding in deployment scripts, optimizing databases, to now churning out automated tests, ChatGPT is an ever-evolving powerhouse in the developer’s toolkit.
