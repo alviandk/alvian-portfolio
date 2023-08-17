@@ -43,6 +43,11 @@ The views in Django are pivotal as they bridge the user with the backend. ChatGP
 These tests encompassed positive scenarios and negative cases – a holistic coverage that one might spend hours to achieve manually.
 ![Result Test for Views](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/views-result.png)
 
+#### Negative Scenario
+
+Line of code 32 `test_vote_view_without_choice_id` function and Line of code 39 `test_vote_view_with_nonexistent_choice_id` function are covering the negative scenario tests. They are covering test without choice_id and test with nonexistent choice_id scenarios.
+![Negative scenario Test for Views](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/negative-view-tests.png)
+
 [Test views source](https://github.com/alviandk/Lets-Vote/blob/main/votes/test_views.py)
 
 ## Beyond Testing - ChatGPT’s Expanding Capabilities
