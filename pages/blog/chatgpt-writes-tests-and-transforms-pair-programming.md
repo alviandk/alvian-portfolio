@@ -27,8 +27,10 @@ With just a simple prompt, essentially asking ChatGPT to "write tests for these 
 
 ChatGPT's tests for the models went beyond my expectations. It didn’t just stop at testing the standard fields and relationships. It ventured into the custom methods within the models, reflecting a profound understanding of the Django ORM. ![Result Test for Models](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/model-result.png)
 
-[Test models source](https://github.com/alviandk/Lets-Vote/blob/main/votes/test_models.py)
+The most impressive part of the test for me is on the testing method part. Since the method is a custom implementation, I am intrigued how on earth ChatGPT can understand the expected result of the method. Seems like ChatGPT is understanding the full context of the chunk of code I've pasted.
+![Test models method](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/method-models-tests.png)
 
+[Test models source](https://github.com/alviandk/Lets-Vote/blob/main/votes/test_models.py)
 
 ### Testing Django Views
 
