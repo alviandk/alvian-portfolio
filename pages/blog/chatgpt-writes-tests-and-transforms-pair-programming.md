@@ -41,7 +41,7 @@ The views in Django are pivotal as they bridge the user with the backend. ChatGP
 #### The Result
 ![Result Test for Views](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/views-result.png)
 
-[Test views source](https://github.com/alviandk/Lets-Vote/blob/main/votes/views.py)
+[Test views source](https://github.com/alviandk/Lets-Vote/blob/main/votes/test_views.py)
 
 ## Beyond Testing - ChatGPT’s Expanding Capabilities
 
