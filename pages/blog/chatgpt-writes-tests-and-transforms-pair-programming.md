@@ -23,6 +23,8 @@ ChatGPT rose to the challenge with flair!
 With just a simple prompt, essentially asking ChatGPT to "write tests for these models", it swiftly returned a comprehensive suite of tests. These tests encompassed positive scenarios, negative cases, and even edge cases – a holistic coverage that one might spend hours to achieve manually.
 ![Prompt Asking Test for Models](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/model-prompt.png)
 
+[Models source](https://github.com/alviandk/Lets-Vote/blob/main/votes/models.py)
+
 ChatGPT's tests for the models went beyond my expectations. It didn’t just stop at testing the standard fields and relationships. It ventured into the custom methods within the models, reflecting a profound understanding of the Django ORM. ![Result Test for Models](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/model-result.png)
 
 [Test models source](https://github.com/alviandk/Lets-Vote/blob/main/votes/test_models.py)
@@ -34,10 +36,12 @@ The views in Django are pivotal as they bridge the user with the backend. ChatGP
 
 #### The Prompt![Prompt Asking Test for Views](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/views-prompt.png)
 
+[Views source](https://github.com/alviandk/Lets-Vote/blob/main/votes/views.py)
+
 #### The Result
 ![Result Test for Views](https://d1kkcsa3gp41aj.cloudfront.net/chatgpt-writes-tests-and-transforms-pair-programming/views-result.png)
 
-[Test views source](https://github.com/alviandk/Lets-Vote/blob/main/votes/test_views.py)
+[Test views source](https://github.com/alviandk/Lets-Vote/blob/main/votes/views.py)
 
 ## Beyond Testing - ChatGPT’s Expanding Capabilities
 
