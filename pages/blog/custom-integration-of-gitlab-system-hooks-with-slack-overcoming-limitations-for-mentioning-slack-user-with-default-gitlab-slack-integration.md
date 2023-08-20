@@ -35,24 +35,24 @@ To address the limitations of the default Slack integration, we developed a cust
   
 
 #### Step 1: Create Custom API on GCP Cloud Function
-- Set up a Google Cloud Platform (GCP) account and navigate to Cloud Functions. ![Create Cloud Function](https://d1kkcsa3gp41aj.cloudfront.net/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/create-cf.png)
+- Set up a Google Cloud Platform (GCP) account and navigate to Cloud Functions. ![Create Cloud Function](https://storage.alviandk.com/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/create-cf.png)
 - Create a new function to handle incoming webhook payloads from GitLab.
 - Transform the incoming data to extract relevant information such as user IDs, event types, and merge request details. [Gitlab merge request event hooks documentation](https://mekar-gitlab.com/help/administration/system_hooks#merge-request-events)
   
 #### Step 2: Enable System Hooks on GitLab
 - Log in to your GitLab account with administrative privileges.
 - Go to "Settings" > "Webhooks" and select "System Hooks."
-- Create a new webhook URL to send events to the designated endpoint with the value is url of the Google Cloud Function created on step 1. ![Enable Gitlab Hooks](https://d1kkcsa3gp41aj.cloudfront.net/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/enable-gitlab-hooks.png)
+- Create a new webhook URL to send events to the designated endpoint with the value is url of the Google Cloud Function created on step 1. ![Enable Gitlab Hooks](https://storage.alviandk.com/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/enable-gitlab-hooks.png)
 
 #### Step 3: Map User IDs on GitLab to Slack Member IDs
 
-- Maintain a mapping between GitLab user IDs and their corresponding Slack member IDs. ![Mapping user id](https://d1kkcsa3gp41aj.cloudfront.net/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/user-id-mapping.png)
+- Maintain a mapping between GitLab user IDs and their corresponding Slack member IDs. ![Mapping user id](https://storage.alviandk.com/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/user-id-mapping.png)
 - Ensure the mapping remains updated to facilitate accurate user mentions.
 
 #### Step 4: Process the Payload and Trigger Slack Mentions
 
 - Within the custom Cloud Function, process the transformed data.
-- For merge request events, use the user mappings to directly mention the relevant GitLab users involved in the request and the requester upon merging. ![Slack mention about merge request](https://d1kkcsa3gp41aj.cloudfront.net/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/slack-mr-mention.png)
+- For merge request events, use the user mappings to directly mention the relevant GitLab users involved in the request and the requester upon merging. ![Slack mention about merge request](https://storage.alviandk.com/custom-integration-of-gitlab-system-hooks-with-slack-overcoming-limitations-for-mentioning-slack-user-with-default-gitlab-slack-integration/slack-mr-mention.png)
   
 ### Conclusion
 

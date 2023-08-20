@@ -39,24 +39,24 @@ In a long term, AWS Elastic Beanstalk offers additional advantages that greatly 
   
  1. Set Up SSL for HTTPS: Secure your domain with an SSL certificate. You can use AWS Certificate Manager to provision a free SSL certificate and associate it with your Elastic Beanstalk environment. 
 
-	 - Request Public Certificate 	![Request Public Certificate](https://d1kkcsa3gp41aj.cloudfront.net/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/request-certificate.png)
-	 - Setup Domain Certificate ![Setup Domain Certificate](https://d1kkcsa3gp41aj.cloudfront.net/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/setup-certificate-domain.png)
-	 -  Get the domain certificate validation values ![Validation Domain Certificate Values](https://d1kkcsa3gp41aj.cloudfront.net/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/validate-domain-certificate.png)
-	 - Config the certificate validation values on Namecheap Subdomain setting ![Namecheap Domain Certificate Setup](https://d1kkcsa3gp41aj.cloudfront.net/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/validate-certificate-domain.png)
+	 - Request Public Certificate 	![Request Public Certificate](https://storage.alviandk.com/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/request-certificate.png)
+	 - Setup Domain Certificate ![Setup Domain Certificate](https://storage.alviandk.com/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/setup-certificate-domain.png)
+	 -  Get the domain certificate validation values ![Validation Domain Certificate Values](https://storage.alviandk.com/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/validate-domain-certificate.png)
+	 - Config the certificate validation values on Namecheap Subdomain setting ![Namecheap Domain Certificate Setup](https://storage.alviandk.com/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/validate-certificate-domain.png)
 
- 2. Create an Elastic Beanstalk Environment: Log in to the AWS Management Console, navigate to Elastic Beanstalk, and [create a new environment](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.CreateApp.html) for your application. Choose the appropriate platform and upload your application package. ![Create App](https://d1kkcsa3gp41aj.cloudfront.net/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/create-environment.png)
+ 2. Create an Elastic Beanstalk Environment: Log in to the AWS Management Console, navigate to Elastic Beanstalk, and [create a new environment](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.CreateApp.html) for your application. Choose the appropriate platform and upload your application package. ![Create App](https://storage.alviandk.com/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/create-environment.png)
 
  3. Configure Environment Settings: Customize your environment settings, such as instance type, scaling options, and security groups, to meet your app's requirements.
 
- 4. Configure Load Balancer: On Auto Scaling Group, choose Load Balanced option from dropdown. ![Load Balancer](https://d1kkcsa3gp41aj.cloudfront.net/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/load-balancer.png)
- Then, select Application Load Balanced and setup HTTPS Listener  port 443 on the load balancer to ensure secure communication with your backend app. ![Application Load Balancer](https://d1kkcsa3gp41aj.cloudfront.net/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/app-load-balancer.png)
+ 4. Configure Load Balancer: On Auto Scaling Group, choose Load Balanced option from dropdown. ![Load Balancer](https://storage.alviandk.com/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/load-balancer.png)
+ Then, select Application Load Balanced and setup HTTPS Listener  port 443 on the load balancer to ensure secure communication with your backend app. ![Application Load Balancer](https://storage.alviandk.com/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/app-load-balancer.png)
 
  5. Deploy Your Application: Once all configurations are set, deploy your backend app to the Elastic Beanstalk environment.
 
  6. Pointing Domain on Namecheap: Head to Namecheap, create a CNAME record for the subdomain. For example, if the EB subdomain is: `test-env.xxx-xxxxxx.ap-southeast-3.elasticbeanstalk.com` then we should have a CNAME entry for it. 
-![Point Domain](https://d1kkcsa3gp41aj.cloudfront.net/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/point-domain.png)
+![Point Domain](https://storage.alviandk.com/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/point-domain.png)
 
-7. Test and Monitor: After deployment, thoroughly test your application to ensure everything works as expected. Set up monitoring and logging with Amazon CloudWatch to keep track of your app's performance. ![Deployed](https://d1kkcsa3gp41aj.cloudfront.net/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/deployed.png)
+7. Test and Monitor: After deployment, thoroughly test your application to ensure everything works as expected. Set up monitoring and logging with Amazon CloudWatch to keep track of your app's performance. ![Deployed](https://storage.alviandk.com/rapidly-deploy-a-backend-app-with-aws-elastic-beanstalk/deployed.png)
 
   
 
