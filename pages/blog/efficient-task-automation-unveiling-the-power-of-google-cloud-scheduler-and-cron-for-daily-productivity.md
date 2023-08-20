@@ -19,7 +19,7 @@ Google Cloud Scheduler and cron on a local machine serve similar purposes of sch
 -   Google Cloud Scheduler provides a user-friendly web-based dashboard, allowing users to easily create, manage, and monitor scheduled tasks. Its intuitive interface eliminates the need to work with complex cron syntax, making it more accessible to a broader range of users.
 -   Cron relies on a text-based configuration file (crontab) on the local machine, which can be more challenging for less experienced users to manage and troubleshoot.
 
-![User Interface](https://d1kkcsa3gp41aj.cloudfront.net/efficient-task-automation-unveiling-the-power-of-google-cloud-scheduler-and-cron-for-daily-productivity/google-cloud-scheduler-interface.png)  
+![User Interface](https://storage.alviandk.com/efficient-task-automation-unveiling-the-power-of-google-cloud-scheduler-and-cron-for-daily-productivity/google-cloud-scheduler-interface.png)  
 
 
 2.  **Cloud Integration**:
@@ -27,7 +27,7 @@ Google Cloud Scheduler and cron on a local machine serve similar purposes of sch
 -   Google Cloud Scheduler is deeply integrated with Google Cloud Platform services, enabling tasks to interact seamlessly with other cloud-based applications and services. It also allows users to schedule tasks that trigger HTTP/S requests, Pub/Sub messages, and App Engine applications, giving developers immense flexibility and versatility.
 -   Cron is typically isolated to the local machine or server on which it is running, which may limit its ability to interact with cloud-based resources and services without additional setup and configuration.
 
-![Cloud Integration](https://d1kkcsa3gp41aj.cloudfront.net/efficient-task-automation-unveiling-the-power-of-google-cloud-scheduler-and-cron-for-daily-productivity/cloud-integration.png)
+![Cloud Integration](https://storage.alviandk.com/efficient-task-automation-unveiling-the-power-of-google-cloud-scheduler-and-cron-for-daily-productivity/cloud-integration.png)
 
 
 3.  **Built in Retry Mechanism**:
@@ -35,7 +35,7 @@ Google Cloud Scheduler and cron on a local machine serve similar purposes of sch
 -   Google Cloud Scheduler includes intelligent error handling, detecting task execution failures and offering configurable retry policies to ensure successful task completion. This proactive approach increases task reliability.
 -   Cron's error handling is generally less sophisticated and may require additional scripting or custom solutions to achieve the same level of reliability.
 
-![Retry Mechanism](https://d1kkcsa3gp41aj.cloudfront.net/efficient-task-automation-unveiling-the-power-of-google-cloud-scheduler-and-cron-for-daily-productivity/retry-mechanism.png) 
+![Retry Mechanism](https://storage.alviandk.com/efficient-task-automation-unveiling-the-power-of-google-cloud-scheduler-and-cron-for-daily-productivity/retry-mechanism.png) 
 
 4. **Scalability**
    

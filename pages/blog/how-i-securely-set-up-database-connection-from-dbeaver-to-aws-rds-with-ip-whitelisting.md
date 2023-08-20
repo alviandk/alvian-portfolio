@@ -16,16 +16,16 @@ Hey everyone! Today, I want to share with you how I successfully set up a secure
 
 To begin, I logged into my AWS Management Console and navigated to the "RDS" service. I located my RDS instance and clicked on its name to access the details. Under the "Security" tab, I found the "Security group rules" section and clicked "Inbound rules."
 
-![Edit Security Group](https://d1kkcsa3gp41aj.cloudfront.net/how-i-securely-set-up-database-connection-from-dbeaver-to-aws-rds-with-ip-whitelisting/edit+security.png)  
+![Edit Security Group](https://storage.alviandk.com/how-i-securely-set-up-database-connection-from-dbeaver-to-aws-rds-with-ip-whitelisting/edit+security.png)  
 
 From there, I edited the inbound rules and added a new rule. For the "Type," I chose the database engine I was using (PostgreSQL in my case). Next, I entered my public IP address in the "Source" field to whitelist it. This step ensured that only my IP address would be allowed to access the RDS instance.
 
-  ![Edit Inbound Rule](https://d1kkcsa3gp41aj.cloudfront.net/how-i-securely-set-up-database-connection-from-dbeaver-to-aws-rds-with-ip-whitelisting/edit+inbound.png)
+  ![Edit Inbound Rule](https://storage.alviandk.com/how-i-securely-set-up-database-connection-from-dbeaver-to-aws-rds-with-ip-whitelisting/edit+inbound.png)
 
 ### Step 2: Set My IP Address to Inbound Rules
 
 To get my public IP address, I simply click on "My IP" options from the dropdown list, and it will display my current public IP.
-![enter image description here](https://d1kkcsa3gp41aj.cloudfront.net/how-i-securely-set-up-database-connection-from-dbeaver-to-aws-rds-with-ip-whitelisting/add+my+ip.png)
+![enter image description here](https://storage.alviandk.com/how-i-securely-set-up-database-connection-from-dbeaver-to-aws-rds-with-ip-whitelisting/add+my+ip.png)
 
 ### Step 3: Configuring DBeaver for AWS RDS Connection
 
@@ -34,7 +34,7 @@ With my AWS RDS instance secured, it was time to set up the connection in DBeave
   
 I chose the appropriate database type for my AWS RDS instance (PostgreSQL) and entered the following details in the connection settings:
 
-  ![Setup PostgreSQL Connection](https://d1kkcsa3gp41aj.cloudfront.net/how-i-securely-set-up-database-connection-from-dbeaver-to-aws-rds-with-ip-whitelisting/setup+connection.png)
+  ![Setup PostgreSQL Connection](https://storage.alviandk.com/how-i-securely-set-up-database-connection-from-dbeaver-to-aws-rds-with-ip-whitelisting/setup+connection.png)
 
 - Host/Endpoint: I used the endpoint URL of my RDS instance, provided by AWS.
 
@@ -52,7 +52,7 @@ I chose the appropriate database type for my AWS RDS instance (PostgreSQL) and e
 
 With the connection settings filled out, I clicked "Test Connection" to ensure everything was working smoothly. Thankfully, the test was successful, indicating that DBeaver could connect to my RDS instance.
 
-  ![Test connection](https://d1kkcsa3gp41aj.cloudfront.net/how-i-securely-set-up-database-connection-from-dbeaver-to-aws-rds-with-ip-whitelisting/test+connection.png)
+  ![Test connection](https://storage.alviandk.com/how-i-securely-set-up-database-connection-from-dbeaver-to-aws-rds-with-ip-whitelisting/test+connection.png)
 
 Feeling confident, I clicked "Finish" to save the connection settings. From now on, whenever I need to connect to my AWS RDS instance, I can simply select the configured connection in DBeaver's connection list.
 

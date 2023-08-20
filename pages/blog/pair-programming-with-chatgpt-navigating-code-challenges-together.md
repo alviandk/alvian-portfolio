@@ -2,7 +2,7 @@
 title: Pair Programming with ChatGPT
 date: 2023/8/12
 description: Exploring the future of coding collaboration, I paired up with OpenAI's ChatGPT to tackle a Django challenge, discovering a dynamic and efficient way to enhance the development process.
-tag: ChatGPT, Python, Backend Developer, Django 
+tag: ChatGPT, Python, Backend Developer, Django, Lets Vote  
 author: Alvian
 ---
 
@@ -33,7 +33,7 @@ I turned to ChatGPT for assistance with my Django challenge, and it was like hav
 
 The essence of our collaboration with ChatGPT revolved around continuous iterations. Here's a brief breakdown of how our dialogue unfolded:
 
-**The Dataset:** Imagine we have a dataset where three users voted. Two of them chose the first choice, while one went for the second choice. ![The Data](https://d1kkcsa3gp41aj.cloudfront.net/pair-programming-with-chatgpt-navigating-code-challenges-together/the-data.png)
+**The Dataset:** Imagine we have a dataset where three users voted. Two of them chose the first choice, while one went for the second choice. ![The Data](https://storage.alviandk.com/pair-programming-with-chatgpt-navigating-code-challenges-together/the-data.png)
 
 **Laying Down the Foundations: The Django Models**
 
@@ -66,16 +66,16 @@ class VoteChoice(BaseModel):
 This structure presents a simple voting mechanism, where `Question` defines the poll, `Choice` lists out the possible voting options, and `VoteChoice` captures the actual choices made by the participants.
 
 **Initial Interaction:** ChatGPT initially provided a correct, yet not entirely efficient solution. It correctly calculated the percentage based on the given example, but the solution involved multiple queries.
-![First Solution](https://d1kkcsa3gp41aj.cloudfront.net/pair-programming-with-chatgpt-navigating-code-challenges-together/first-solution.png)
+![First Solution](https://storage.alviandk.com/pair-programming-with-chatgpt-navigating-code-challenges-together/first-solution.png)
 
 **Refinement 1: Consolidation:** Recognizing the need to reduce database hits, I nudged ChatGPT towards making the calculations using a single query. It's always a balancing act between readability and optimization, but in this context, efficiency was a priority.
-![Single Query Solution](https://d1kkcsa3gp41aj.cloudfront.net/pair-programming-with-chatgpt-navigating-code-challenges-together/single-query-solution.png)
+![Single Query Solution](https://storage.alviandk.com/pair-programming-with-chatgpt-navigating-code-challenges-together/single-query-solution.png)
 
-**Refinement 2: Targeted Querying:** Next, we dove deeper into optimization. Instead of querying all fields, I expressed the need to fetch only the necessary ones. This not only speeds up the query but also reduces memory usage, a crucial aspect for scalable applications. ![Optimized Query Solution](https://d1kkcsa3gp41aj.cloudfront.net/pair-programming-with-chatgpt-navigating-code-challenges-together/optimized-query.png)
+**Refinement 2: Targeted Querying:** Next, we dove deeper into optimization. Instead of querying all fields, I expressed the need to fetch only the necessary ones. This not only speeds up the query but also reduces memory usage, a crucial aspect for scalable applications. ![Optimized Query Solution](https://storage.alviandk.com/pair-programming-with-chatgpt-navigating-code-challenges-together/optimized-query.png)
 
-**Final Refinement: Integration:** The final step was to make the solution more reusable. I asked ChatGPT to integrate the optimized logic into the `Question` model as a method. This encapsulation ensures that any time we need the voting percentages, it's just a method call away, keeping the main codebase clean and readable. ![Integrated Query Solution](https://d1kkcsa3gp41aj.cloudfront.net/pair-programming-with-chatgpt-navigating-code-challenges-together/integrated-solution.png)
+**Final Refinement: Integration:** The final step was to make the solution more reusable. I asked ChatGPT to integrate the optimized logic into the `Question` model as a method. This encapsulation ensures that any time we need the voting percentages, it's just a method call away, keeping the main codebase clean and readable. ![Integrated Query Solution](https://storage.alviandk.com/pair-programming-with-chatgpt-navigating-code-challenges-together/integrated-solution.png)
 
-To give you a tangible sense of the outcome, I'll be sharing screenshots of the API percentage results. It's a testament to the precision and applicability of the solution we crafted together. Remember, it's not just about getting the right answer, but getting it in a way that seamlessly integrates into your existing infrastructure, and ChatGPT did just that. ![API Result](https://d1kkcsa3gp41aj.cloudfront.net/pair-programming-with-chatgpt-navigating-code-challenges-together/api-result.png)
+To give you a tangible sense of the outcome, I'll be sharing screenshots of the API percentage results. It's a testament to the precision and applicability of the solution we crafted together. Remember, it's not just about getting the right answer, but getting it in a way that seamlessly integrates into your existing infrastructure, and ChatGPT did just that. ![API Result](https://storage.alviandk.com/pair-programming-with-chatgpt-navigating-code-challenges-together/api-result.png)
 
 
 **The Optimization Journey**
