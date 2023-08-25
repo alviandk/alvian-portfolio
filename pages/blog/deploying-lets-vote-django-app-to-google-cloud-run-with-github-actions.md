@@ -23,18 +23,18 @@ In terms of security, I took a more advanced route than the usual JSON key metho
 
 The configuration of Google's Workload Identity Provider was more difficult than I had expected. After nearly 20 attempts at getting the settings right, I turned to extensive documentation, tried multiple configurations, and consulted with other developers in online communities.
 
-**Setting up identity provider to connect with github screenshooted
-Trial and error to filling the right value format screenshooted**
+**Setting up identity provider to connect with github screenshooted Trial and error to filling the right value format screenshooted**
 
 ### Setting Up Service Account Permissions
 
 Configuring the correct permissions for the service account turned out to be a puzzle. Each misconfiguration presented a new error in the CI/CD pipeline, requiring me to act as a detective, tracing back steps, understanding the issue, and resolving it one by one.
-**screenshot of what went wrong each step
-the final listed permissions required screenshooted**
+
+**screenshot of what went wrong each step the final listed permissions required screenshooted**
 
 ### The Final Deployment
 
 When "Lets Vote" was finally live on Google Cloud Run, it felt like a significant achievement. Beyond just deploying an app, it was a journey filled with challenges, learning, and persistence.
+
 **the final cloudrun.yaml source screenshooted**
 
 ### Looking Forward: The Next Adventure
