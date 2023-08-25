@@ -5,7 +5,7 @@ description: Journeying through the deployment of the "Lets Vote" app, this arti
 tag: Github Action, Python, Django, CI/CD, Lets Vote
 author: Alvian
 ---
-ß
+
 
 After the success of building "Lets Vote" through pair programming with ChatGPT, the next logical step was deployment. Having used GitHub Actions before, I knew its capabilities, but this deployment presented its own unique set of challenges.
 
