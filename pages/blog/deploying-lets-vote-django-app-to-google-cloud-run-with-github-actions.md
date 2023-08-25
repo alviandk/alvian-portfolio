@@ -1,12 +1,10 @@
 ---
 title: Deploying "Lets Vote" Django App to Google Cloud Run with GitHub Actions
 date: 2023/8/19
-description: Journeying through the deployment of the "Lets Vote" app, this article details the strategic choice of using Google Cloud Run, the familiar yet challenging terrain of GitHub Actions, and the unique hurdles faced with Google's Workload Identity Provider.
+description: Journeying through the deployment of the "Lets Vote" app, this article details the strategic choice of using Google Cloud Run, the familiar yet challenging terrain of GitHub Actions, and the unique hurdles faced with the deployment process.
 tag: Github Action, Python, Django, CI/CD, Lets Vote
 author: Alvian
 ---
-
-
 
 After the success of building "Lets Vote" through pair programming with ChatGPT, the next logical step was deployment. Having used GitHub Actions before, I knew its capabilities, but this deployment presented its own unique set of challenges.
 
@@ -18,10 +16,9 @@ Why Cloud Run? Two reasons. Auto-scaling and cost-efficiency. In an era where ap
 
 I had used GitHub Actions before and was fairly comfortable with its workflow. So, I began by setting up the deployment process in `.github/workflows/cloudrun.yml`, ensuring it met the specific needs of "Lets Vote".
 
-**explain about different approach on the auth method, instead using json key I tried using new approach with workload identity provider which is the latest recommended approach because it's safer**
+In terms of security, I took a more advanced route than the usual JSON key method for authentication. I followed the current best practice by adopting the Workload Identity Provider. This choice provided my Cloud Run service with its own unique identity, significantly boosting security. It also removed the necessity for long-term credentials, relying instead on short-lived identity tokens for interactions with Google Cloud services. This made sure that the sensitive parts of my project were well-protected.
 
 ### Challenges with Workload Identity Provider
-
 
 The configuration of Google's Workload Identity Provider was more difficult than I had expected. After nearly 20 attempts at getting the settings right, I turned to extensive documentation, tried multiple configurations, and consulted with other developers in online communities.
 
